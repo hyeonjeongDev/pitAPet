@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+section {
+	width:100%;
+}
+
+form {
+	width:500px;
+	height:680px;
+	margin:90px auto;
+	border:lightgray 1px solid;
+	padding:40px;
+}
+
+#btn {
+	background-color:#003399;
+	color:#FFD609;
+	width:150px;
+	height:40px;
+}
+
+.bts {
+	padding-top: 10px;
+	text-align: center;
+}
+
+@media all and (max-width:500px) {
+	form {
+		width:100%;
+	}
+}

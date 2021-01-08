@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+.notice {
+	text-align:center;
+	margin:80px auto;
+	width:1200px;
+}
+
+tr, td, th {
+	padding:10px;
+}
+
+th {
+	background-color:#F6F6F6;
+}
+
+table {
+	margin:40px auto 10px auto;
+	width:1200px;
+	font-size:17px;
+	border-bottom: 1px solid #F6F6F6;
+}
+
+#pageList {
+	text-align:center;
+	margin:30px 0 50px 0;
+}
+
+#emptyArea {
+	margin:40px 0;
+	text-align:center;
+}
+
+a {
+	color:black;
+}
+
+@media all and (max-width:1200px) {
+	.notice {
+		width:100%;
+	}
+	table {
+		width:100%;
+	}
+}

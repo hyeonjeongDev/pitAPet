@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+#banner {
+	height:400px;
+}
+
+section {
+	padding:70px 10%;
+	text-align:center;
+}
+
+h4 {
+	margin: 10px 0 20px 0;
+}
+
+.bdiv {
+	display:flex;
+	flex-wrap:wrap;
+	margin-bottom: 50px;
+}
+
+#card {
+	width:30%;
+	margin:35px auto;
+}
+
+#card a {
+	text-decoration: none;
+	color:black;
+}
+
+#card img {
+	width:95%;
+	height:350px;
+	margin:10px auto;
+}
+
+@media all and (max-width:550px) {
+	#card {
+		width:100%;
+		margin:10px auto;
+	}
+}
+
+@media all and (min-width:550px) and (max-width:1300px) {
+	#card {
+		width:45%;
+		margin:10px auto;
+	}
+}
+
+/* .btn-primary { */
+/*     background-color: #7bc143; */
+/*     border-color: #7bc143; */
+/* } */

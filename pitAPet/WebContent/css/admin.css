@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+#login-bar {
+	background-color: #003399;
+	font-size: 14px;
+	padding:3px 16px;
+}
+
+#navyellow {
+	color: #FFD609;
+}
+
+body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input,
+	legend, li, ol, p, select, table, td, textarea, th, ul {
+	margin: 0;
+	padding: 0;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+.fdiv {
+	width:100%;
+	background-color: #003399;
+}
+
+#admin {
+	text-align: center;
+	margin: 90px auto;
+	width:500px;
+	border:lightgray 1px solid;
+	padding:40px;
+}
+
+#admin>a {
+	color:black;
+	font-size:20px;
+}
+
+@media all and (max-width:500px) {
+	#admin {
+		width:100%;
+	}
+}

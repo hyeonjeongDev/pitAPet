@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+#listForm {
+	width:1000px;
+	border:lightgray 1px solid;
+	margin:90px auto;
+	padding:40px;
+	text-align:center;
+	font-size:17px;
+}
+
+form {
+	padding:20px;
+}
+
+table {
+	width:900px;
+	margin:auto;
+	border-bottom:lightgray 1px solid;
+}
+
+th {
+	padding:10px;
+}
+
+td {
+	padding:15px;
+}
+
+.tr_top {
+	background-color:#003399;
+	color:#FFD609;
+}
+
+#productImage {
+	width:150px;
+	height:150px;
+}
+
+#cartImage {
+	width:70px;
+	height:70px;
+}
+
+#commandList {
+	text-align:center;
+	margin-top: 20px;
+}
+
+#upImage {
+	width:15px;
+	height:8px;
+}
+
+#downImage {
+	width:15px;
+	height:8px;
+}
+
+#keep {
+	text-decoration:none;
+	color:black;
+}
+
+#left {
+	text-align:left;
+}
+
+#subbtn {
+	background-color:#003399;
+	color:#FFD609;
+	border:none;
+	width:50px;
+	height:30px;
+}
+
+#right {
+	text-align:right;
+	font-size:18px;
+	font-weight:bold;
+}
+
+@media all and (max-width:1000px) {
+	#listForm {
+		width:100%;
+		padding:40px 0;
+	}
+	table {
+		width:100%;
+	
+	}
+}
+@media all and (max-width:900px) {
+	#listForm {
+		padding:40px 0;
+	}
+	table {
+		margin:auto 0;
+	
+	}
+	form {
+		padding:20px 0;
+	}
+}

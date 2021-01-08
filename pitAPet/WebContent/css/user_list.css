@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+section {
+	width:500px;
+	margin:90px auto;
+	border:lightgray 1px solid;
+	padding:40px;
+}
+
+.ulist {
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.ulist1 {
+	width:49%;
+	text-align: center;
+	padding:5px;
+}
+
+.ulist .ulist1 a {
+	color:black;
+}
+
+@media all and (max-width:500px) {
+	section {
+		width:100%;
+	}
+}

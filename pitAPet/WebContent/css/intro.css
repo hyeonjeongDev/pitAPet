@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+#text {
+	width:800px;
+	margin:90px auto;
+}
+
+section {
+	width:100%;
+	border:#FFD609 1px solid;
+	font-size:18px;
+	text-align:center;
+	padding:40px;
+}
+
+#logo {
+	width:100px;
+	height:50px;
+}
+
+.yellow {
+	background-color:#FFD609;
+}
+
+.blue {
+	background-color:#003399;
+	color:white;
+}
+
+@media all and (max-width:800px) {
+	#text {
+		width:100%;
+		margin:90px auto;
+	}
+}

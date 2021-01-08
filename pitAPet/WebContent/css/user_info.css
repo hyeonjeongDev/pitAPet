@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+section {
+	width:500px;
+	margin:90px auto;
+	border:lightgray 1px solid;
+	padding:40px;
+}
+
+.ulist {
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.ulist1 {
+	width:40%;
+}
+
+.ulist2 {
+	width:55%;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+section #lback a {
+	color:black;
+}
+
+#lback {
+	text-align: center;
+	margin-top:10px;
+}
+
+@media all and (max-width:500px) {
+	section {
+		width:100%;
+	}
+}
