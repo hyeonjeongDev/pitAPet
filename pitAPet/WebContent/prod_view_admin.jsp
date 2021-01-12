@@ -84,7 +84,7 @@
 	
 <!-- 상세 정보 출력 -->
 		<div id ="center">
-			<hr style="width:1200px;">
+			<hr>
 			<h4>상품 상세 설명</h4>
 				<p>${product.p_content}</p>
 		</div>
